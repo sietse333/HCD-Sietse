@@ -1,5 +1,5 @@
 
-** Week 1 **
+**Week 1**
 
 Eerst begon ik met werken aan de opdracht voor merijn. Ik was bezig met een trein reis planner maken en had al de basis met wat javascript neergezet.
 
