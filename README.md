@@ -1,5 +1,5 @@
 
-**Week 1**
+*Week 1*
 
 Eerst begon ik met werken aan de opdracht voor merijn. Ik was bezig met een trein reis planner maken en had al de basis met wat javascript neergezet.
 
@@ -43,7 +43,7 @@ https://www.youtube.com/watch?v=Vsj1MIg-gf8&t=9s&ab_channel=CUBoulderOIT
 
 Door deze video zag ik hoe je goed een table kon gebruiken met een screenreader. Ik heb de code netjes gemaakt voor screenreaders maar de windows screenreader leest een table niet zoals ik wil. Namelijk eerst de header dan de linker header en dan pas de cell voorlezen. Nu leest het gewoon op welke cell nummer het staat. 
 
-*** Het interview ***
+**Het interview**
 
 
 
