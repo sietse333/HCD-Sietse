@@ -8,8 +8,7 @@ Eerst begon ik met werken aan de opdracht voor merijn. Ik was bezig met een trei
 
 Maar dat heb ik moeten wegdoen omdat ik de test tijden van merijn niet kon redden. Dus ik heb geswitched met tim en nu doe ik het project met Larissa. Eerst heb ik research gedaan hoe je een screenreader kan gebruiken. Ik bevond dat een table navigeren heel moeilijk was met een screenreader. Dus ik had een stuk javascript geschreven waar je met je pijltjes toetsen door een table heen kan navigeren.
 
-
-\\
+```
 function checkKey(e) {
   e = e || window.event;
   if (e.keyCode == '87') {
@@ -38,4 +37,4 @@ function checkKey(e) {
     dotheneedful(sibling);
   }
 }
-\\
+```
