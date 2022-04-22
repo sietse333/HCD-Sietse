@@ -1,5 +1,5 @@
 
-*Week 1*
+**Week 1
 
 Eerst begon ik met werken aan de opdracht voor merijn. Ik was bezig met een trein reis planner maken en had al de basis met wat javascript neergezet.
 
@@ -43,7 +43,28 @@ https://www.youtube.com/watch?v=Vsj1MIg-gf8&t=9s&ab_channel=CUBoulderOIT
 
 Door deze video zag ik hoe je goed een table kon gebruiken met een screenreader. Ik heb de code netjes gemaakt voor screenreaders maar de windows screenreader leest een table niet zoals ik wil. Namelijk eerst de header dan de linker header en dan pas de cell voorlezen. Nu leest het gewoon op welke cell nummer het staat. 
 
-**Het interview**
+**Het interview
+
+Het eerste interview was vooral informatie krijgen over hoe zij een screenreader gebruikt en hoe zij een schema wilt hebben. Het was heel leuk om met haar kennis te maken. Eerst hadden we het even over het leven van haar en hoe zij omgaat met zon druk leven terwijl je blind bent. Daarna begonnen wij met een vragen lijst die we hadden samengesteld. Hier zijn de aantekeningen die ik heb genomen tijdens het gesprek en tijdens het testen van de projecten van meerdere klasgenoten:
+
+-Kan soort van kleuren zien. Misschien een licht accentje geven
+Braile bord niet veel gebruikt
+-niet een sierlijk of hakerig font. Maat het onnodig onduidelijk
+-6 dagen in de week . soms 2 dagen per dag sport zij
+-training peaks wordt nu gebruikt voor schemas.
+-1 week tot in detail uitgeschreven.
+-Training die ze heeft gedaan uitgeschreven onderaan?
+-snel informatie krijgen
+-Eerst menu voor baan of weg seizoen
+-oranje beste kleur!
+-Ze gebruikt jaws. claire
+-bovenaan een balk waar je kan zoeken naar balk. En het eerste resultaat dat je krijgt op je home is de dag vandaag
+-op h klikken voor koppen en i voor lijsten. p voor paragraphs. t voor tabel.
+-testen firefox
+-skip link om naar content te gaan
+
+Jammergenoeg hebben we nog niet een schema gekregen die zijn gebruikt. Maar daar ging zij gelukkig naar zoeken. Verder was dit interview heel leerzaam en kan ik zeker verder volgende week.
+
 
 
 
