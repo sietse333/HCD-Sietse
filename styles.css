@@ -13,6 +13,12 @@ input{
     height: 3em;
     width: 100%;
     margin-top: 3em;
+    margin-bottom: 0em;
+}
+
+.switch{
+    display: flex; 
+    flex-direction: column-reverse;
 }
 
 article{
@@ -65,7 +71,6 @@ button:focus{
 
 .skiplink{
     color: white;
-    margin-bottom: 9em;
     font-size: 2em;
 
 }
