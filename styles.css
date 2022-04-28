@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 2em;
+    font-family: Arial, sans-serif;
+}
+
+input:focus{
+    outline: 9px solid orange;
+}
+
+input{
+    height: 3em;
+    width: 100%;
+    margin-top: 3em;
+}
+
+article{
+    background-color: rgb(201, 201, 201);
+    color: black;
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+article:focus{
+    background-color: orange;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h1:focus{
+    outline: 9px solid orange;
+}
+
+p{
+    font-weight: 400;
+    font-size: 1.5em;
+    margin: .5em;
+    margin-left: 0;
+}
+
+p:focus{
+    background-color: rgb(255, 219, 157);
+}
+
+h2:focus{
+    background-color: rgb(255, 219, 157);
+}
+
+
+article:focus-within{
+    background-color: orange;
+}
+
+button{
+    padding: 2em;
+}
+
+button:focus{
+    background-color: orange;
+}
+
+.skiplink{
+    color: white;
+    margin-bottom: 9em;
+    font-size: 2em;
+
+}
+
+.skiplink:focus{
+    outline: 9px solid orange;
+
+}
+
+.skiplink2{
+    color: white;
+    margin-bottom: 9em;
+    font-size: 2em;
+    margin-left: 1em;
+
+}
+
+.skiplink2:focus{
+    outline: 9px solid orange;
+
+}
