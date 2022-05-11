@@ -65,6 +65,6 @@ Braile bord niet veel gebruikt
 
 Jammergenoeg hebben we nog niet een schema gekregen die zijn gebruikt. Maar daar ging zij gelukkig naar zoeken. Verder was dit interview heel leerzaam en kan ik zeker verder volgende week.
 
-
+## Week 2
 
 
