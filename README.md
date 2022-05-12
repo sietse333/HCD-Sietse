@@ -1,5 +1,5 @@
 
-**Week 1**
+## Week 1
 
 Eerst begon ik met werken aan de opdracht voor merijn. Ik was bezig met een trein reis planner maken en had al de basis met wat javascript neergezet.
 
@@ -65,6 +65,15 @@ Braile bord niet veel gebruikt
 
 Jammergenoeg hebben we nog niet een schema gekregen die zijn gebruikt. Maar daar ging zij gelukkig naar zoeken. Verder was dit interview heel leerzaam en kan ik zeker verder volgende week.
 
+## Week 2
 
+Deze week gewerkt aan mijn pagina en zoveel mogelijk feedback verwerkt van de tests. Ik heb een rooster gemaakt waar alles groot is met oranje focus states. Ook is de achtergrond zwart want dat oogt voor haar fijner. Aangezien zij door de pagina heen tabt heb ik op elk element een focus state gemaakt zodat ze kan zien waar ze op de pagina is. Ze zei ook dat  ze skiplinks heel fijn vond. Een skiplink is een vaak onzichtbare link die boven aan de pagina staat. Al zou je dus tabben door de pagina heen is die link het eerste dat je tegenkomt. Wat een skiplink doet is het verplaatst je meteen naar de main content van de pagina. Dit is heel handig al navigeer je de pagina met alleen tab want dan hoef je niet 100 keer te klikken voordat je bent waar je wilt. Zij wilt ook graag 1 week uitgeschreven hebben in detail en de maanden vaag dus dat heb ik ook toegepast. 
 
+### De test
+Testen ging heel goed. Ik heb informatie van mijn eigen tests en die van me medestudenten genoteerd. Larissa was erg positief over mijn website. Ik had haar een beetje laten rond navigeren en heb haar ook de taak gegeven om een bepaalde dag te zoeken en het schema te lezen. Dit ging allemaal erg goed. Wat problemen die ik gevonden heb was dat de link naar vandaag niet helemaal goed werkt met een screenreader. Ook springt het niet helemaal goed dus daar moet ik even naar kijken. 
+
+### notities
+
+Ze wilt graag heel snel de informatie die ze zoekt. En dat is meestal het sportschema van vandaag dus ik heb een link gemaakt die haar direct brengt naar vandaag om haar tijd te besparen. 
+![voorbeeld](https://user-images.githubusercontent.com/43068118/167809083-e6dd8f2d-ec64-4aa1-815b-b40fa61278c3.png)
 
