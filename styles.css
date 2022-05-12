@@ -15,6 +15,17 @@ input:focus{
     position: absolute;
     padding: 0;
 }
+#terugknop2{
+    width: 9em;
+    height: 2em;
+    position: absolute;
+    padding: 0;
+}
+#terugknop3{
+    width: 9em;
+    height: 2em;
+    padding: 0;
+}
 
 .terugknop:focus{
     outline: 9px solid orange;
@@ -44,6 +55,17 @@ input{
     background-color: black;
 }
 
+#dagsection{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    background-color: black;
+    margin: 0em 1em;
+}
+
 .volgende{
     clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
 }
@@ -55,10 +77,13 @@ input{
     flex-direction: column-reverse;
 }
 
+
 ul{
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    padding: 0;
+    margin: .2em 0em;
 }
 li{
     width: 10em;
