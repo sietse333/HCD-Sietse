@@ -127,12 +127,41 @@ liNode.setAttribute("tabIndex", "0")
 ```
 
 Ook heb ik gewerkt aan de knoppen zodat je door de weken heen kan klikken. Hier had ik helaas geen tijd meer voor om het te fixen dus het werkt niet he.....
+```
+// vorige knop
+document.querySelectorAll(".vorige").forEach(i => i.addEventListener('click', function () {
+    if (i < weken.length) {
+      weekspan.innerText = weken[i];
+      i = (i < 1) ? 11 : i - 1;
+    } else {
+      i = (weken.length - 1)
+      weekspan.innerText = weken[i];
+    }
+}))
+
+// volgende knop
+document.querySelectorAll(".volgende").forEach(i => i.addEventListener('click', function () {
+    if (i < weken.length) {
+      weekspan.innerText = weken[i];
+      i = i + 1;
+    } else {
+      i = 0
+      weekspan.innerText = weken[i];
+    }
+}))
+```
+
+
+En toen kwam het punt waar het allemaal fout ging. Ik ging het (iets telaat) testen met mijn screenreader. Ik gebruikte al de hele tijd puur mijn keyboard om te navigeren dus ik dacht niet dat het zo snel kon breken maar toch wel. Ik maakte gebruik van sections die zichtbaar werden al kliktje je op een knop. Dit werkt niet met een screenreader want het blijft gefocust op wat er achter de section staat. Niet alleen dat al mijn knoppen werken wel als mijn screenreader uitstaat maar niet al doe je het aan. Het eerste probleem was wel duidelijk waarom het niet werkten. Ik heb dit opgelost door 3 verschillende html bestanden te gebruiken voor de verschillende states. En ik maak gebruik van links die je rond sturen over de pagina. Dit liep me nog wel soepel af maar waar ik echt even op vast zat was de knoppen. 
+
+Ik kon maar niet vinden waar het aan lag en informatie op het internet is heel slecht al gaat het over screenreaders. Uiteindelijk was het probleem dat ik dit gebruik voor knoppen.
+```
+document.getElementById('de knop').addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+```
+Het probleem hier is dat een knop niet reageerd op deze manier van enter klikken. Wat je moet doen is de addEventListener op click zetten aangezien een knop standaard al bedient kan worden met enter. Dit heeft het uiteindelijk gefixt en ik heb dit toegepast op al mijn functies.
 
 
 
-En toen kwam het punt waar het allemaal fout ging. Ik ging het (iets telaat) testen met mijn screenreader. Ik gebruikte al de hele tijd puur mijn keyboard om te navigeren dus ik dacht niet dat het zo snel kon breken maar toch wel. Ik maakte gebruik van sections die zichtbaar werden al kliktje je op een knop. Dit werkt niet met een screenreader want het blijft gefocust op wat er achter de section staat. Niet alleen dat al mijn knoppen werken wel als mijn screenreader uitstaat maar niet al doe je het aan. Het eerste probleem was wel duidelijk waarom het niet werkten. Ik heb dit opgelost door 3 verschillende html bestanden te gebruiken voor de verschillende states. En ik maak gebruik van links die je rond sturen over de pagina. Dit liep me nog wel soepel af maar waar ik echt even op vast zat was de knoppen. Ik 
 
-
-
-enter mocht niet moest click zijn
 
