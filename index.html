@@ -13,58 +13,65 @@
 <body>
     <main>
         <section>
-            <div class="switch">
-                <input id="zoekbalk" type="text" placeholder="Welke dag zoek je naar">
+            <!-- <div class="switch">
+                <input id="zoekbalk" type="text" placeholder="Welke dag zoek je naar"> -->
                 <a class="skiplink" tabindex="1" href="#vandaag">Gelijk naar vandaag</a>
-            </div>
+            <!-- </div> -->
+            <a tabindex="0" class="skiplink" id="skiplink" id="maandlink">Maand overzicht</a>
+            <!-- <p>motivational speech</p> -->
             <h1 tabindex="0">Sportschema week 1</h1>
-            <button>Vorige week</button>
-            <button>Volgende week</button>
+            <button class="vorige">Vorige week</button>
+            <button class="volgende">Volgende week</button>
+            <h2>Mei</h2>
             <article>
                 <h2 tabindex="0">Maandag</h2>
-                <p tabindex="0">acht tot twaalf krachttraining</p>
-                <p tabindex="0">1 tot vier cardio</p>
-                <p tabindex="0">vier tot vijf cooling down</p>
+                <p tabindex="0">krachttraining</p>
             </article>
             <article>
                 <h2 tabindex="0">Dinsdag</h2>
-                <p tabindex="0">acht tot twaalf krachttraining</p>
-                <p tabindex="0">1 tot vier cardio</p>
-                <p tabindex="0">vier tot vijf cooling down</p>
+                <p tabindex="0">Cardio</p>
             </article>
             <article>
                 <h2 tabindex="0">Woensdag</h2>
-                <p tabindex="0">acht tot twaalf krachttraining</p>
-                <p tabindex="0">1 tot vier cardio</p>
-                <p tabindex="0">vier tot vijf cooling down</p>
+                <p tabindex="0">Rust</p>
             </article>
             <article>
                 <h2 tabindex="0" id="vandaag" >Donderdag</h2>
                 <p tabindex="0">acht tot twaalf krachttraining</p>
-                <p tabindex="0">1 tot vier cardio</p>
-                <p tabindex="0">vier tot vijf cooling down</p>
+                <p tabindex="0">Krachttraining</p>
             </article>
             <article>
                 <h2 tabindex="0">Vrijdag</h2>
-                <p tabindex="0">acht tot twaalf krachttraining</p>
-                <p tabindex="0">1 tot vier cardio</p>
-                <p tabindex="0">vier tot vijf cooling down</p>
+                <p tabindex="0">Cardio</p>
             </article>
             <article>
                 <h2 tabindex="0">Zaterdag</h2>
-                <p tabindex="0">acht tot twaalf krachttraining</p>
-                <p tabindex="0">1 tot vier cardio</p>
-                <p tabindex="0">vier tot vijf cooling down</p>
+                <p tabindex="0">Rust</p>
             </article>
             <article>
                 <h2 tabindex="0">Zondag</h2>
-                <p tabindex="0">acht tot twaalf krachttraining</p>
-                <p tabindex="0">1 tot vier cardio</p>
-                <p tabindex="0">vier tot vijf cooling down</p>
+                <p tabindex="0">Rust</p>
             </article>
-            <button>Vorige week</button>
-            <button>Volgende week</button>
-            <a class="skiplink2" tabindex="0" href="#zoekbalk">Terug naar zoekbalk</a>
+            <button class="vorige">Vorige week</button>
+            <button class="volgende">Volgende week</button>
+            <a class="skiplink2" tabindex="0" href="#skiplink">Terug naar skiplink</a>
+        </section>
+        <section id="maandsection" class="onzichtbaar">
+            <button id="terugknop">terug</button>
+            <ul>
+                <li tabindex="0">Januari</li>
+                <li tabindex="0">Februari</li>
+                <li tabindex="0">Maart</li>
+                <li tabindex="0">April</li>
+                <li tabindex="0">Mei</li>
+                <li tabindex="0">Juni</li>
+                <li tabindex="0">July</li>
+                <li tabindex="0">Augustus</li>
+                <li tabindex="0">September</li>
+                <li tabindex="0">Oktober</li>
+                <li tabindex="0">November</li>
+                <li tabindex="0">December</li>
+            </ul>
         </section>
     </main>
 

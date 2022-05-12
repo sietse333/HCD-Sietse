@@ -9,17 +9,70 @@ input:focus{
     outline: 9px solid orange;
 }
 
+#terugknop{
+    width: 9em;
+    height: 2em;
+    position: absolute;
+    padding: 0;
+}
+
+.terugknop:focus{
+    outline: 9px solid orange;
+}
+
+.onzichtbaar{
+    display: none;
+}
+
+.zichtbaar{
+    display: block;
+}
+
 input{
     height: 3em;
     width: 100%;
     margin-top: 3em;
     margin-bottom: 0em;
 }
+#maandsection{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    background-color: black;
+}
 
+.volgende{
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+.vorige{
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+}
 .switch{
     display: flex; 
     flex-direction: column-reverse;
 }
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    width: 10em;
+    height: 10em;
+    background-color: white;
+    color: black;
+    margin: 2em;
+}
+
+li:focus{
+    background-color: orange;
+}
+
+
 
 article{
     background-color: rgb(201, 201, 201);
@@ -62,7 +115,9 @@ article:focus-within{
 }
 
 button{
-    padding: 2em;
+    padding: 7em;
+    margin: 0em 5em;
+
 }
 
 button:focus{
@@ -92,3 +147,4 @@ button:focus{
     outline: 9px solid orange;
 
 }
+
