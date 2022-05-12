@@ -77,7 +77,62 @@ Testen ging heel goed. Ik heb informatie van mijn eigen tests en die van me mede
 Ze wilt graag heel snel de informatie die ze zoekt. En dat is meestal het sportschema van vandaag dus ik heb een link gemaakt die haar direct brengt naar vandaag om haar tijd te besparen. 
 ![voorbeeld](https://user-images.githubusercontent.com/43068118/167809083-e6dd8f2d-ec64-4aa1-815b-b40fa61278c3.png)
 
-##week 3 
+## week 3 
+
+Ik heb dit keer het gesprek met Larissa op de woensdag middag. Voor het gesprek heb ik snel nog wat feedback van de vorige sessie toegevoegd in mijn app. Ik heb nu een knop waar je naar een scherm gestuurd wordt waar je uit de maanden kan kiezen. 
+
+![fsdafsa](https://user-images.githubusercontent.com/43068118/168148602-a027be7e-c844-4765-8447-61cbb7b7aa7d.png)
+
+Ook heb ik nog wat kleine aanpassingen gemaakt zodat mijn screenreader goed tabbbed door te pagina heen gaat want het werkte niet goed bij mijn skiplink. Hierna heb ik met mijn mede studenten getest met larissa samen. 
+
+### De test
+
+Ik vond dat Larissa wel op een punt kwam met veel studenten dat ze er wel tevreden mee is. Er waren wel wat belangrijke punten die ik nog hebt megenomen. Larissa wilt graag een wekelijks overzicht hebben waar je kan zien wat er globaal getrained moet worden MET de tijden erbij. Vervolgens moet je op de dag kunnen klikken en daar een uitgebreid schema zien van wat voor oefeningen zij moet doen. Ook wou ze graag daar zelf oefeningen bij kunnen voegen. Na de tests kreeg ik ook nog te horen dat ze het fijn zou vinden als je bij het maanden schemak de wk`s kan zien die gaan gebeuren. 
+
+### Het toevoegen
+
+Eerst ging ik werken aan iets leuks in de pagina. Larissa liet vaak weten dat ze nooit echt zin had om te trainen. Dus ik heb boven aan de pagina een button neergezet die een voiceclip van shia labeouf afspeeld die just do it roept.  
+
+![aaaaa](https://user-images.githubusercontent.com/43068118/168155274-6c6b9f26-83a1-44aa-861d-b439396ec06b.png)
+
+Daarna ben ik gaan werken aan het uitgebreide rooster. Ik heb een ul gemaakt waar de li`tjes het schema staat. Daarna heb ik een invoerveld gemaakt waar je je eigen oefeningen kan typen en die versturen naar de li. Dat heb ik op deze manier gedaan.
+
+```
+document.getElementById('txtVal').addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+      var txtVal = document.getElementById('txtVal').value,
+      listNode = document.getElementById('list')
+      liNode = document.createElement("LI")
+      liNode.setAttribute("tabIndex", "0")
+      txtNode = document.createTextNode(txtVal);
+      liNode.appendChild(txtNode);
+      listNode.appendChild(liNode);
+      const origAudio = new Audio('/mp3/ding.mp3');
+      const newAudio = origAudio.cloneNode()
+      newAudio.volume = 0.3;
+      newAudio.play()
+      console.log("iets")
+    }
+  });
+```
+
+Wanneer je in het invoerveld op enter klikt komt er dus een oefening bij. Maar al ben je blind of extreem slecht ziend in Larissas geval heb je dat helemaal niet door. Dus ik heb een geluidje toegevoegd elke keer al voeg je iets toe zodat zij daar op de hoogte van is. Maar al voeg je te snel iets toe dan zou hij niet twee keer laten weten dat je iets toegevoegd heb. Dat heb ik op deze manier opgelost.
+```
+ const origAudio = new Audio('/mp3/ding.mp3');
+ const newAudio = origAudio.cloneNode()
+```
+Dit stukje code zorgt ervoor dat het geluid gecloned wordt en over elkaar heen gespeeld mag worden. Ook moest ik ervoor zorgen dat de li`tjes tabbable waren en dat heb ik op deze manier gedaan.
+```
+liNode.setAttribute("tabIndex", "0")
+```
+
+Ook heb ik gewerkt aan de knoppen zodat je door de weken heen kan klikken. Hier had ik helaas geen tijd meer voor om het te fixen dus het werkt niet he.....
+
+
+
+En toen kwam het punt waar het allemaal fout ging. Ik ging het (iets telaat) testen met mijn screenreader. Ik gebruikte al de hele tijd puur mijn keyboard om te navigeren dus ik dacht niet dat het zo snel kon breken maar toch wel. Ik maakte gebruik van sections die zichtbaar werden al kliktje je op een knop. Dit werkt niet met een screenreader want het blijft gefocust op wat er achter de section staat. Niet alleen dat al mijn knoppen werken wel als mijn screenreader uitstaat maar niet al doe je het aan. Het eerste probleem was wel duidelijk waarom het niet werkten. Ik heb dit opgelost door 3 verschillende html bestanden te gebruiken voor de verschillende states. En ik maak gebruik van links die je rond sturen over de pagina. Dit liep me nog wel soepel af maar waar ik echt even op vast zat was de knoppen. Ik 
+
+
 
 enter mocht niet moest click zijn
 
