@@ -41,8 +41,16 @@ h3{
 #vandaagarticle{
     padding-top: 2.5em;
     padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
 }
 
+.p{
+    font-size: 1.5em;
+    color: black;
+    text-decoration: none;
+    margin-top: 1em;
+}
 
 .terugknop:focus{
     outline: 9px solid orange;
