@@ -39,31 +39,28 @@ input:focus{
     display: block;
 }
 
+.buttonlink{
+    background-color: white;
+    color: black;
+
+}
+.buttonlink:hover{
+    background-color: white;
+    color: black;
+    outline: 9px solid orange;
+
+}
+.buttonlink:focus{
+    background-color: white;
+    color: black;
+    outline: 9px solid orange;
+}
+
 input{
     height: 3em;
     width: 100%;
     margin-top: 3em;
     margin-bottom: 0em;
-}
-#maandsection{
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    overflow: hidden;
-    position: fixed;
-    background-color: black;
-}
-
-#dagsection{
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    overflow: hidden;
-    position: fixed;
-    background-color: black;
-    margin: 0em 1em;
 }
 
 .volgende{
