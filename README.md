@@ -77,3 +77,7 @@ Testen ging heel goed. Ik heb informatie van mijn eigen tests en die van me mede
 Ze wilt graag heel snel de informatie die ze zoekt. En dat is meestal het sportschema van vandaag dus ik heb een link gemaakt die haar direct brengt naar vandaag om haar tijd te besparen. 
 ![voorbeeld](https://user-images.githubusercontent.com/43068118/167809083-e6dd8f2d-ec64-4aa1-815b-b40fa61278c3.png)
 
+##week 3 
+
+enter mocht niet moest click zijn
+
