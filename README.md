@@ -186,7 +186,10 @@ Door veel met haar te praten weet ik wat zij fijn vind en een paar voorkeuren di
 ## add nonsense
 Larissa vertelde mij dat ze vaak geen zin heeft om te trainen en ze houd niet van schemas volgen. Dus heb ik een motivational speech van shia labeuof toegevoegd voor als ze het moeilijk heeft. 
 
+## Reflectie
+Ik had een beetje een vervelend begin van het project omdat het met me werk niet goed uitkwam. Maar na het ruilen ging het allemaal goed. Ik vond het leuk om met Larissa te werken omdat ze heel energiek en vrolijk is. Het breekt een beetje het beeld dat je hebt over mindervalide. Het testen liep ook erg goed af met haar. Ze is wel snel met zeggen dat alles goed is dus je moet een klein beetje doorgraven maar dan krijg je ook wel goede feedback. Het was ook leuk om met haar hond te spelen op het einde. Uiteraard iets dat ik al wou doen het moment dat ie binnenstapte. 
 
+Vasilis zei eerder al hoe depri hij wordt van de staat van screenreaders en het web voor minder valide in het algemeen en na deze pagina gemaakt te hebben ben ik het er wel mee eens ja. Na 2 minuten testen met een screenreader wou ik me laptop al dicht doen. De stemmen zijn niet fijn om te horen en het is over het algemeen verwarrend. Ik vind het knap van haar dat ze het blijft volhouden. Ik heb me best gedaan om ervoor te zorgen dat de hele pagina goed werkt met een screenreader. En nu maar hopen dat grotere bedrijven dit ook gaan doen.
 
 
 
