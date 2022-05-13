@@ -74,7 +74,21 @@ Testen ging heel goed. Ik heb informatie van mijn eigen tests en die van me mede
 
 ### notities
 
-Ze wilt graag heel snel de informatie die ze zoekt. En dat is meestal het sportschema van vandaag dus ik heb een link gemaakt die haar direct brengt naar vandaag om haar tijd te besparen. 
+Ze wilt graag heel snel de informatie die ze zoekt. En dat is meestal het sportschema van vandaag dus ik heb een link gemaakt die haar direct brengt naar vandaag om haar tijd te besparen. Hier mijn notities van het gesprek:
+
+- Website op nederlands zetten
+- Een weekoverzicht maken		
+- Maand schemas vaag week schemas in meer detail
+- grote knoppen met pijlen voor volgenden en vorige week
+- Gebruikt vaker telefoon
+- Springen werkt niet helemaal lekker
+- Kopjes zijn handig want h met headings
+- Maand kiezen en in die maand een week kiezen. Niemand weet precies de dag
+- Placeholder duidelijk aangeven in welk formaat er moet getypt worden qua datums
+- Placeholder text met label
+
+
+
 ![voorbeeld](https://user-images.githubusercontent.com/43068118/167809083-e6dd8f2d-ec64-4aa1-815b-b40fa61278c3.png)
 
 ## week 3 
