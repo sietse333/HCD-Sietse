@@ -161,6 +161,17 @@ document.getElementById('de knop').addEventListener('keypress', function (e) {
 ```
 Het probleem hier is dat een knop niet reageerd op deze manier van enter klikken. Wat je moet doen is de addEventListener op click zetten aangezien een knop standaard al bedient kan worden met enter. Dit heeft het uiteindelijk gefixt en ik heb dit toegepast op al mijn functies.
 
+## Study situations
+Ik heb veel getest en gepraat met Lisanne. Hierdoor heb ik een goed beeld gekregen hoe zij een computer gebruikt. Ze gebruikt een screenreader en surft een pagina vooral met de tab toets. Ook kan ze nog wel kleur accentjes zien in de pagina dus als je een groot blok oranje maakt op een zwarte achtergrond zal ze dit zien. Ook zoemt ze soms de pagina heel ver in om tekst te lezen. Dit lukt haar soms maar ik zal er niet van uitgaan.
+## ignore conventions 
+Aangezien dit een pagina is voor iemand die heel slechtziend is kan je merken dat dit niet door andere echt gebruikt hoort te worden. Dit kan je merken aan de extreem grote elementen en die grote outlines rond elk element. Ook heb ik terug knoppen boven en onder aan elke pagina wat zodat je snel terug kan komen naar de home screen.
+
+## prioritize identity
+Door veel met haar te praten weet ik wat zij fijn vind en een paar voorkeuren die ze heeft. Een paar voorbeelden hiervan zijn dat ze de kleur oranje leuk vind en dat ze graag een zwarte background heeft voor haar ogen. Ook vind ze het heel fijn om wk`s te zien bij de maanden. Ik heb ook een geluidje toegevoegd elke keer al add je een oefening aangezien zij heel slecht ziend is.
+
+## add nonsense
+Larissa vertelde mij dat ze vaak geen zin heeft om te trainen en ze houd niet van schemas volgen. Dus heb ik een motivational speech van shia labeuof toegevoegd voor als ze het moeilijk heeft. 
+
 
 
 
